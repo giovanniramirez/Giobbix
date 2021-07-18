@@ -1,5 +1,6 @@
 body{
-    font-family: 'Otomanopee One', sans-serif;     
+    font-family: 'Otomanopee One', sans-serif; 
+    background-color: black;    
 }
 
 .navbar {
@@ -10,3 +11,29 @@ body{
     background-color: cornflowerblue;
     transition: background-color .4s;
 }
+
+#main .carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+#carousel{
+	position: relative;
+}
+
+#carousel .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+height: 100%;
+}
+
