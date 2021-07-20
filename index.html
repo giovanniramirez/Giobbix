@@ -17,8 +17,8 @@
 
     <title>Giobbix</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #383B3C;">
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+    <nav id="scrollspy" class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #383B3C;">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Giobbix</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#main">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white" href="#">Acerca de</a>
+                <a class="nav-link text-white" href="#acerca">Acerca de</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-white" href="#">Proximamentes</a>
+                <a class="nav-link text-white" href="#prox">Proximamente</a>
                 </li>            
             </ul>
             </div>
@@ -65,7 +65,7 @@
                 </div>
               </div>
 
-              <div class="container mt-5">
+              <div class="container mt-5" id="acerca">
                   <h2 class="text-center" id="textohover">Acerca de </h2>
                   <p class="lead text-white text-center">Somos un negocio enfocado en ofrecer servicios
                     referente a los videojuegos.</p><br>
@@ -96,7 +96,7 @@
                     </div>
                 </div>
 
-                <div class="container mt-5">
+                <div class="container mt-5" id="prox">
                   <h2 class="text-center" id="textohover">Proximamente</h2>
                     <p class="lead text-center">Descuentos en Tarjetas de Google Play y App Store durante el lanzamiento oficial de la 
                     página web </p>                   
