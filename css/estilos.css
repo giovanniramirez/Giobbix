@@ -1,6 +1,7 @@
 body{
     font-family: 'Otomanopee One', sans-serif; 
-    background-color: black;    
+    background-color: black; 
+    color: white;   
 }
 
 .navbar {
@@ -37,3 +38,11 @@ body{
 height: 100%;
 }
 
+#signo{
+    filter: grayscale(100%);
+}
+
+#textohover:hover{
+    color: cornflowerblue;
+    transition: color .5s;
+}
