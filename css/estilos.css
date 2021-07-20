@@ -46,3 +46,16 @@ height: 100%;
     color: cornflowerblue;
     transition: color .5s;
 }
+
+#footer{
+    background-color: #080808;
+}
+
+#footer a{
+    color: cornflowerblue;
+}
+
+#footer a:hover{
+    color: white;
+    transition: color .5s;
+}
